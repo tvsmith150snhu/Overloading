@@ -31,8 +31,9 @@ using namespace std;
 
 int add(int, int);
 double add(double, double);
+
 int main()
-{
+	{
 	int a, b, x;
 	double c, d, y;
 
@@ -49,15 +50,15 @@ int main()
 	y = add(c, d);
 	cout << "Sum of doubles: " << y << endl;
 	return 0;
-}
-int add(int a, int b) {
-	int sum;
-	sum = a + b;
-	// 5. Missing sum return statement here.
-	return sum;
-}
-double add(double a, double b) {
-	double sum;
-	sum = a + b;
+	}
+	int add(int a, int b) {
+		int sum;
+		sum = a + b;
+		// 5. Missing sum return statement here.
+		return sum;
+	}
+	double add(double a, double b) {
+		double sum;
+		sum = a + b;
 	return sum;
 }
